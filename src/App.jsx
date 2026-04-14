@@ -32,21 +32,9 @@ const ROOMS = [
     ]
   },
   {
-    roomName: "Archieve Section",
-    sentences: [
-      ["You", "have", "to", "get", "permission", "to", "take", "the", "rare", "books", "from", "the", "archive"]
-    ]
-  },
-  {
     roomName: "Copy Room",
     sentences: [
       ["You", "don’t", "have", "to", "pay", "to", "make", "photocopies"]
-    ]
-  },
-  {
-    roomName: "Library Cafe",
-    sentences: [
-      ["You", "don’t", "have", "to", "be", "quiet", "in", "the", "rest", "area", "but", "you", "have", "to", "eat", "your", "food", "there"]
     ]
   },
   {
