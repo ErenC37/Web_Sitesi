@@ -14,49 +14,49 @@ import { useState, useEffect, useRef, useCallback } from "react";
 // ─────────────────────────────────────────────────────────────────────────────
 const ROOMS = [
   {
-    roomName: "Enterance",
+    roomName: "Library Reception",
     sentences: [
       ["You", "have", "to", "scan", "your", "card", "when", "you", "enter", "the", "library"]
     ]
   },
   {
-    roomName: "Çalışma Salonu",
+    roomName: "Study Room",
     sentences: [
       ["You", "have", "to", "be", "quiet", "in", "the", "study", "area"]
     ]
   },
   {
-    roomName: "Bilgisayar Odası",
+    roomName: "Computer Room",
     sentences: [
       ["You", "don’t", "have", "to", "use", "the", "library", "computers", "you", "can", "bring", "your", "own", "computer"]
     ]
   },
   {
-    roomName: "Arşiv Bölümü",
+    roomName: "Archieve Section",
     sentences: [
       ["You", "have", "to", "get", "permission", "to", "take", "the", "rare", "books", "from", "the", "archive"]
     ]
   },
   {
-    roomName: "Fotokopi Odası",
+    roomName: "Copy Room",
     sentences: [
       ["You", "don’t", "have", "to", "pay", "to", "make", "photocopies"]
     ]
   },
   {
-    roomName: "Kafe ve Dinlenme Alanı",
+    roomName: "Library Cafe",
     sentences: [
       ["You", "don’t", "have", "to", "be", "quiet", "in", "the", "rest", "area", "but", "you", "have", "to", "eat", "your", "food", "there"]
     ]
   },
   {
-    roomName: "Kitap Kayıt Veznesi",
+    roomName: "Book Registration Desk",
     sentences: [
       ["You", "have", "to", "return", "them", "within", "two", "weeks"]
     ]
   },
   {
-    roomName: "Çıkış Kapısı",
+    roomName: "Exit Door",
     sentences: [
       ["You", "don’t", "have", "to", "open", "your", "bag", "when", "you", "go", "through", "the", "exit"],
       ["but", "you", "have", "to", "open", "it", "if", "the", "alarm", "goes", "off"]
