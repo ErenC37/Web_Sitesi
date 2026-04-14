@@ -14,7 +14,7 @@ import { useState, useEffect, useRef, useCallback } from "react";
 // ─────────────────────────────────────────────────────────────────────────────
 const ROOMS = [
   {
-    roomName: "tucenin odası",
+    roomName: "Library Reception",
     sentences: [
       ["You", "have", "to", "scan", "your", "card", "when", "you", "enter", "the", "library"]
     ]
@@ -57,9 +57,10 @@ const ROOMS = [
   },
   {
     roomName: "Exit Door",
+    question: "Do I have to come at a certain time?",
     sentences: [
-      ["You", "don’t", "have", "to", "open", "your", "bag", "when", "you", "go", "through", "the", "exit"],
-      ["but", "you", "have", "to", "open", "it", "if", "the", "alarm", "goes", "off"]
+      ["No", "you", "don’t", "have", "to", "come", "at", "a", "specific", "time"],
+      ["but", "you", "have", "to", "leave", "before", "the", "library", "closes", "at", "6", "p.m."]
     ]
   }
 ];
