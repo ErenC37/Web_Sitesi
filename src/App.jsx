@@ -14,7 +14,7 @@ import { useState, useEffect, useRef, useCallback } from "react";
 // ─────────────────────────────────────────────────────────────────────────────
 const ROOMS = [
   {
-    roomName: "Library Reception",
+    roomName: "tucenin odası",
     sentences: [
       ["You", "have", "to", "scan", "your", "card", "when", "you", "enter", "the", "library"]
     ]
